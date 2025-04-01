@@ -2,6 +2,7 @@
 <div class="All">
   <Travel/>
 </div>
+
 </template>
 
 <script>
@@ -20,6 +21,9 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
+
+
 </style>
 

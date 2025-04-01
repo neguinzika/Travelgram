@@ -1,10 +1,9 @@
 <template>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, deleniti dolor doloremque error
-    exercitationem fugit incidunt iusto, labore quibusdam quis quos recusandae, sequi veritatis! Atque eos obcaecati
-    similique velit voluptatibus.
-  </p>
+  <div class="allPage">
 
+
+
+  </div>
 </template>
 
 <script>
@@ -13,4 +12,4 @@ export default {
 }
 </script>
 
-<style scoped src="./travel.css"/>
+<style  src="./travel.css"/>
