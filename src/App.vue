@@ -1,7 +1,7 @@
 <template>
-
+<div class="All">
   <Travel/>
-
+</div>
 </template>
 
 <script>
