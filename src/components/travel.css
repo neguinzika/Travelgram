@@ -9,7 +9,7 @@
 
     --font-family: "Poppins, sans-serif";
     --text-large: bold 32px/125% var(--font-family);
-    --text: 16px/150% var(--font-family);
+    --text: 16px/1.5 var(--font-family);
     --text-medium: 14px/170% var(--font-family);
     --text-small: 12px/170% var(--font-family);
 
@@ -17,8 +17,8 @@
 
 .allPage {
     color: var(--text-color-secundary);
-    /*background-color: var(--background-color);*/
     background-color: var(--surface-color);
+    font: var(--text);
 
 }
 
@@ -60,14 +60,14 @@ a:hover {
     margin-inline: auto
 }
 
-header  {
+header {
     padding-block: 32px;
     font: var(--text-medium);
 
 }
 
 header .container {
-display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -90,12 +90,10 @@ display: flex;
     margin-bottom: 8px;
 }
 
-#profile p {
-}
 
 #info {
     list-style: none;
-display: flex;
+    display: flex;
     flex-direction: column;
     gap: 16px;
     width: 280px;
@@ -105,4 +103,17 @@ display: flex;
     display: flex;
     align-items: center;
     gap: 8px;
- }
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-block: 24px;
+}
+
+main img {
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+}

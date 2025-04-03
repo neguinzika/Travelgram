@@ -14,6 +14,8 @@
         </a></li>
       </ul>
     </nav>
+
+
     <header>
       <div class="container">
         <div id="profile">
@@ -49,6 +51,20 @@
 
 
   </div>
+  <main class="container">
+    <img src="../assets/imagens/Image%2001.png" alt="">
+    <img src="../assets/imagens/Image%2002.png" alt="">
+    <img src="../assets/imagens/Image%2003.png" alt="">
+    <img src="../assets/imagens/Image%2004.png" alt="">
+    <img src="../assets/imagens/Image%2005.png" alt="">
+    <img src="../assets/imagens/Image%2006.png" alt="">
+    <img src="../assets/imagens/Image%2007.png" alt="">
+    <img src="../assets/imagens/Image%2008.png" alt="">
+    <img src="../assets/imagens/Image%2009.png" alt="">
+    <img src="../assets/imagens/Image%2010.png" alt="">
+    <img src="../assets/imagens/Image%2011.png" alt="">
+    <img src="../assets/imagens/Image%2012.png" alt="">
+  </main>
 </template>
 
 <script>
