@@ -10,8 +10,8 @@
     --font-family: "Poppins, sans-serif";
     --text-large: bold 32px/125% var(--font-family);
     --text: 16px/150% var(--font-family);
-    --text-medium: 14px/175% var(--font-family);
-    --text-small: 12px/175% var(--font-family);
+    --text-medium: 14px/170% var(--font-family);
+    --text-small: 12px/170% var(--font-family);
 
 }
 
@@ -59,3 +59,50 @@ a:hover {
     max-width: 1280px;
     margin-inline: auto
 }
+
+header  {
+    padding-block: 32px;
+    font: var(--text-medium);
+
+}
+
+header .container {
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile {
+    display: flex;
+    gap: 32px;
+
+}
+
+#profile > div {
+    max-width: 384px;
+
+}
+
+#profile h1 {
+
+    font: var(--text-large);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+#profile p {
+}
+
+#info {
+    list-style: none;
+display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+}
+
+#info li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+ }

@@ -14,7 +14,38 @@
         </a></li>
       </ul>
     </nav>
-    <header></header>
+    <header>
+      <div class="container">
+        <div id="profile">
+          <img src="../assets/Profile%20pic.png" alt="Imagem de Isabela Torres">
+          <div>
+            <h1>
+              Isabela Torres
+            </h1>
+            <p>
+              Amante de viagens, cultura e gastronomia. 🌍✈️<br>
+              Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso
+              planeta a partir da movimentada cidade de São Paulo. 🏙️📸
+            </p>
+          </div>
+        </div>
+
+      <ul id="info">
+        <li>
+          <img src="../assets/icones/MapPin.svg" alt="Icone de Mapa ">
+          <span>São Paulo, Brazil</span>
+        </li>
+        <li>
+          <img src="../assets/icones/AirplaneTilt.svg" alt="Icone de avião">
+          <span>337 Países</span>
+        </li>
+        <li>
+          <img src="../assets/icones/Image.svg" alt="Icone de foto ">
+          <span>240 fotos</span>
+        </li>
+      </ul>
+      </div>
+    </header>
 
 
   </div>
