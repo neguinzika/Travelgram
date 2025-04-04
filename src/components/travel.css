@@ -82,6 +82,12 @@ header .container {
     max-width: 384px;
 
 }
+#profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 #profile h1 {
 
@@ -116,4 +122,15 @@ main img {
     width: 286px;
     height: 286px;
     object-fit: cover;
+}
+
+footer {
+    display: flex;
+    gap: 24px;
+    padding-block: 24px;
+    font: 14px/150% var(--font-family);
+}
+
+footer span:nth-child(1){
+    margin-right : auto;
 }

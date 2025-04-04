@@ -65,6 +65,18 @@
     <img src="../assets/imagens/Image%2011.png" alt="">
     <img src="../assets/imagens/Image%2012.png" alt="">
   </main>
+
+  <footer class="container">
+    <span>
+      Travelgram &copy; 2024
+    </span>
+<span>
+  Termos de uso
+</span>
+    <span>
+      Política de Privacidade
+    </span>
+  </footer>
 </template>
 
 <script>
