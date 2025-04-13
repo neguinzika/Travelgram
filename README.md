@@ -1,4 +1,4 @@
-# projeto-vue
+# projeto-travelgram
 
 ## Project setup
 ```
